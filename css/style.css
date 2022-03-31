@@ -96,9 +96,8 @@ section:nth-child(2n + 1) {
     background-color: white;
 }
 
-section:target {
-    background-color: cyan;
-}
+
+
 
 
 .section-heading {
@@ -205,18 +204,47 @@ section:target {
 
 }
 
-.timeline-box {
+
+.timeline-box{
     position: relative;
     margin: 5px;
     width: 40%;
     left: 5%;
-    min-height: 150px;
+    min-height: 150px ;
     border: 2px solid black;
 }
 
-.timeline-box:nth-child(2n) {
+.timeline-box:nth-child(2n){
     left: 53%;
 }
+
+
+
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 1px dashed #0096fa6b;
+    top:10%;
+    left: 50%;
+    /* color: #433e3f; */
+    
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 30%;
+    color: #403066;
+    transform: rotate(90deg); 
+    left: 20%;
+}
+
+
+.timeline-traveller img{
+    height: 20px;
+    width: 26px;
+}
+
 
 
 
